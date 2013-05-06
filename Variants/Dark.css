@@ -1,0 +1,57 @@
+body {
+    background-color: #002b36;
+    color: #657b83;
+}
+
+ /******* SOME TOPIC STUFF *******/
+#topic, .history {
+    color: rgba(88,110,117,.7);
+}
+
+#wrap {
+    background-color: rgba(0,43,54,.95);
+    border-bottom: 1px solid rgba(88,110,117,.6);
+    box-shadow: 0 1px 2px rgba(30,30,30,.7);
+}
+ /******* END TOPIC STUFF *******/
+
+.event {
+    color: #586e75;
+}
+
+.time {
+    color: #364649;
+}
+
+.mention {
+    background-color: #073642;
+    border-top: 1px solid rgba(131,148,150,.8);
+    border-bottom: 1px solid rgba(131,148,150,.8);
+    color: rgba(131,148,150,1);
+}
+
+.status .sender,
+.status .themessage {
+    color: #364649;
+}
+
+.history {
+    background-color: rgba(7,54,66,.45);
+    color: rgba(88,110,117,.6);
+}
+
+.history .sender {
+    color: rgba(88,110,117,.75);
+}
+
+.history + :not(.history) {
+    border-top: 1px dashed rgba(88,110,117,.5);
+}
+
+.history.mention {
+    color: rgba(88,110,117,.95);
+}
+
+a {
+    color: #586e75;
+}
