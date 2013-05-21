@@ -3,6 +3,7 @@ body {
     margin: 2px;
     word-wrap: break-word;
     word-break: break-word;
+    color: #657b83;
 }
 
 #Chat {
@@ -56,6 +57,9 @@ body {
 
  /******* END TOPIC STUFF *******/
 
+.mention {
+    color: rgba(131,148,150,1);
+}
 
 #insert,
 .message,
@@ -80,7 +84,13 @@ body {
     padding-right: 0;
 }
 
-.message:not(.event) .sender:after {
+/* make my username less noticeable */
+.outgoing .sender {
+    color: #797979 !important;
+}
+
+.message:not(.event) .sender:after,
+.message:not(.action) .sender:after {
     content: ":";
 }
 
@@ -132,19 +142,6 @@ body {
     padding-bottom: 4px
 }
 
-.status .sender,
-.status .themessage {
-
-}
-
-.history {
-
-}
-
-.history .sender {
-
-}
-
 .history + :not(.history) {
     padding-top: 6px;
 }
@@ -154,10 +151,12 @@ body {
     border-bottom: none;
 }
 
-a {
-
-}
-
 a:hover {
     text-decoration: none
+}
+
+.firstFocus {
+    border-top-width: 1px;
+    border-top-style: dashed;
+    margin-top: 2px;
 }

@@ -1,6 +1,5 @@
 body {
     background-color: #fdf6e3;
-    color: #657b83;
 }
 
  /******* SOME TOPIC STUFF *******/
@@ -27,7 +26,11 @@ body {
     background-color: #eee8d5;
     border-top: 1px solid rgba(147,161,161,.8);
     border-bottom: 1px solid rgba(147,161,161,.8);
-    color: rgba(131,148,150,1);
+}
+
+.andyet .status,
+.andyet .event {
+    background-color: #eee8d5;
 }
 
 .status * {
@@ -53,4 +56,8 @@ body {
 
 a {
     color: #93a1a1;
+}
+
+.firstFocus {
+    border-top-color: #ccf;
 }

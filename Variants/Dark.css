@@ -1,6 +1,5 @@
 body {
     background-color: #002b36;
-    color: #657b83;
 }
 
  /******* SOME TOPIC STUFF *******/
@@ -27,11 +26,14 @@ body {
     background-color: #073642;
     border-top: 1px solid rgba(131,148,150,.8);
     border-bottom: 1px solid rgba(131,148,150,.8);
-    color: rgba(131,148,150,1);
 }
 
-.status .sender,
-.status .themessage {
+.andyet .mention,
+.andyet .status {
+    background-color: #073642;
+}
+
+.status * {
     color: #364649;
 }
 
@@ -54,4 +56,8 @@ body {
 
 a {
     color: #586e75;
+}
+
+.firstFocus {
+    border-top-color: #cc0;
 }
